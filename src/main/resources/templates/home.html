@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Taco Cloud</title>
+</head>
+<body>
+
+    <h1>Benvenuti su Taco Cloud</h1>
+
+    <img th:src="@{/images/taco.png}" />
+
+    <form th:action="@{/design}" method="get">
+        <button type="submit">Procedi</button>
+    </form>
+
+</body>
+</html>
